@@ -15,7 +15,7 @@
                 <img class="logo"  src="assets/img/TestAppLogo.png" alt="TestAppLogo">
                 <a href="#" class="navicon"><img src="assets/img/NavIcon.png" alt="NavLink"></a>
             </div>
-        </div>
+            </div>
         <div class="content">
             <div class="contentdisplay">
                 <div class="row">
