@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat.woff), url(fonts/Montserrat.ttf);
+}
+.bg{
+    background-color: #ffffff;
+}
+body{
+    color: #000000;
+    font-family: Montserrat;
+}
+.header{
+    background-color: #ffffff;
+    width: 100%;
+    height: 50px;
+    box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.07);
+}
+.headermenu{
+    padding: 3px 20px 3px 20px;
+}
+.logo{
+    float: left;
+    padding-right: 10px;
+}
+.navicon{
+    float: right;
+    padding-right: 10px;
+}
+.content{
+    padding: 120px 150px 120px 150px;
+}
+.contentdisplay{
+    background-color: #ffffff;
+    border: rgba(0, 0, 0, 0.24) solid 1px;
+    padding: 80px 60px 80px 60px;
+    width: 100%;
+    height: 100%;
+}
+.msg{
+    text-align: center;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+.timebg{
+    background-color: #000000;
+    box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.07);
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    height: 100%;
+    color: #ffffff;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+    .contentdisplay{
+        width: 100%;
+    }
+
+}
+footer{
+    background-color: #ffffff;
+    width: 100%;
+    height: 50px;
+    box-shadow: -1px -2px 2px 0px rgba(0, 0, 0, 0.07);
+}
+.foot{
+    padding: 20px 20px 5px 20px;
+}
